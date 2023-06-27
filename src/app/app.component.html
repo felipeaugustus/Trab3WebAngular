@@ -1,0 +1,11 @@
+
+
+<app-menu>
+ <app-dashboard>
+  <h1>{{title}}</h1>
+
+  <input type="text" (input)="setTitle($event)">
+  <button (click)="changeTitle()">mudar titulo</button>
+</app-dashboard>
+</app-menu>
+<router-outlet></router-outlet>
